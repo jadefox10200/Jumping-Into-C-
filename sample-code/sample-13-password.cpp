@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	string password;
+	cout << "Enter your password: ";
+	getline( cin, password, '\n');
+	if (password == "xyzzy" ){
+		cout << "Access allowed" << "\n";
+	} else {
+		cout << "Bad password. Denied access!" << "\n";
+		//returning is a convenient way to stop the program
+		return 0;
+	}
+	//continue onward!
+}
