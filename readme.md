@@ -23,3 +23,8 @@ Teaches basics of getting input from the user as well as variable declaration.
 Covers the basic types (double, char, int) and basic arithmetic operators.
 At one point shows the getline() function and even covers it as a quiz question.
 However, it doesn't show a full example and is not clear how to use it.
+
+Finished, Oct 5 2016
+
+##Chapter Four: If Statements <br>
+Pretty straight forward explanation of how to use the if statement in C++.
